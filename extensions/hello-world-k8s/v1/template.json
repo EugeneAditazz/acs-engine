@@ -48,7 +48,7 @@
       "dependsOn": [],
       "location": "[resourceGroup().location]",
       "type": "Microsoft.Compute/virtualMachines/extensions",
-	  "name": "[concat(parameters('targetVMName'),'/cse', parameters('vmIndex')]",
+	  "name": "[concat(parameters('targetVMName'),'/cse', parameters('vmIndex'))]",
       "properties": {
         "publisher": "Microsoft.Azure.Extensions",
         "type": "CustomScript",
