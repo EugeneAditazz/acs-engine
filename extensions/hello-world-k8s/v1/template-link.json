@@ -29,7 +29,7 @@
                 "value": "EXTENSION_PARAMETERS_REPLACE"
             },
             "vmIndex":{
-                "value": "copyIndex(EXTENSION_LOOP_OFFSET)"
+                "value": "[copyIndex(EXTENSION_LOOP_OFFSET)]"
             }
         }
     }
